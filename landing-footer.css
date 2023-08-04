@@ -1,0 +1,12 @@
+footer{
+	background: grey;
+	height: 60px;
+	margin-top: 30px;
+}
+
+footer h5{
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+	font-weight: 300;
+}

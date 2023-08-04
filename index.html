@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="landing-nav.css">
+	<link rel="stylesheet" href="landing.css">
+	<link rel="stylesheet" href="landing-footer.css">
+	<script src="https://kit.fontawesome.com/127aef0c53.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div class="nav">
+		<div class="nav-content">
+			<div class="logo"><span class="logo-name">W</span>arith</div>		
+			<ul>
+				<li><a href="#header">Home</a></li>
+				<li><a href="#section">About</a></li>
+				<li><a href="#friends">friends</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="header" class="header-text">
+			<p>Frontend web developer</p>
+			<h1>Hi, I'm Lawal <span class="logo-name">W</span>arith</h1>
+		</div>
+
+	<section id="section" class="about">
+		<div class="about-container">
+			<div class="about-row">
+				<div class="about-col-1">
+					<img class="about-image" src="images/IMG_4218.jpg">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About me</h1>
+					<p class="about-p">Highly motivated JuniorFrontend Developer with expertise in HTML, CSS and JavaScriptalso familiar with React. Passionate about creating user-friendly interfaces that enhance the user experience. Collaborative team player, quick learner, and adaptable to emerging technologies. Committed to continuous learning, creative problem-solving, and delivering high-quality code on time. Excellent communication skills and a track record of success. Ready to contribute to innovative web application development as part of a dynamic team.</p>
+
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>HTML</span><br>Build web pages structure</li>
+							<li><span>CSS</span><br>Design web pages</li>
+							<li><span>JAVASCRIPT</span><br>Make web pages interactive</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>2021 - 2022</span><br>Content creator at Koshila foundation</li>
+							<li><span>2021 - 2022</span><br>Logistics manager at Galaxy Highway</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>2015 - 2020</span><br>Bsc Economics</li>
+							<li><span>2020</span><br>HTML & CSS - Certification Course at Udemy</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--------------------------------end of about---------------->
+
+	<div class="friends">
+		<div id="friends" class="friends-container">
+			<h1 class="sub-title">My Friends</h1>
+			<div class="friends-images">
+				<div class="fr"><img src="images/jenny.JPG"></div>
+				<div class="fr"><img src="images/IMG_4226.jpg"></div>
+				<div class="fr"><img src="images/IMG_4222.jpg"></div>
+				<div class="fr"><img src="images/IMG_4223.jpg"></div>
+			</div>
+		</div>
+	</div>
+
+	<!--------------------------------end of friends---------------->
+
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact</h1>
+					<p><i class="fas fa-inbox"></i> Lgrimmy10@gmail.com</p>
+					<p><i class="fas fa-phone-alt"></i>07018527982</p>
+					<p><i class="fas fa-home"></i>1 Nubi close Apapa road Ebute metta West</p>
+				</div>
+
+				<div class="contact-right">
+					<form>
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button class="btn" type="submit">SUBMIT</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--------------------------------end of contact---------------->
+
+	<footer>
+		<h5>Made By Warith Lawal for Bincom</h5>
+	</footer>
+
+
+
+	<script src="landing.js"></script>
+</body>
+</html>
