@@ -190,6 +190,12 @@ form input, form textarea{
 	.header-text{
 		margin-top: 120px;
 	}
+	.header-text h1{
+		font-size: 30px;
+		margin-top: 20px;
+		margin-left: 10%;
+	}
+	
 }
 
 
